@@ -1,0 +1,26 @@
+{
+  "name": "automatic-action-switch",
+  "version": "1.0.0",
+  "description": "Automatically perform reducer actions depending on the action type",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codewell/automatic-action-switch.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codewell/automatic-action-switch/issues"
+  },
+  "homepage": "https://github.com/codewell/automatic-action-switch#readme",
+  "dependencies": {
+    "@codewell/get-action-prefix": "^1.0.0"
+  }
+}
