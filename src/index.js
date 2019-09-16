@@ -1,4 +1,7 @@
-const getActionPrefix = require('@codewell/get-action-prefix');
+const {
+  getActionTypePrefix,
+  getStatePropertyFromActionType,
+} = require('@codewell/action-type-utils');
 const {
   setStateProperty, updateStateProperty, removeStateProperty,
 } = require('@codewell/state-actions');
@@ -6,9 +9,9 @@ const defaultCustomSwitch = require('./defaultCustomSwitch');
 const defaultConfig = require('./defaultConfig');
 
 const automaticActionSwitch = (customSwitch = defaultCustomSwitch, config = defaultConfig) => (state, action) => {
-  const actionPrefix = getActionPrefix(action.type);
   const { set, update, remove } = config.prefix;
-  const property = '' // use some fancy function here
+  const actionPrefix = getActionTypePrefix(action.type);
+  const property = getStatePropertyFromActionType(action.type);
 
   switch (actionPrefix) {
     case set: {
