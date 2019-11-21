@@ -16,7 +16,7 @@ const SET_STATE_PROPERTY = 'SET_STATE_PROPERTY';
 // Update the state property named 'stateProperty'
 const UPDATE_STATE_PROPERTY = 'UPDATE_STATE_PROPERTY';
 
-// Remove state property named 'statePropert'
+// Remove state property named 'stateProperty'
 const REMOVE_STATE_PROPERTY = 'REMOVE_STATE_PROPERTY';
 ```
 
