@@ -1,8 +1,8 @@
 const defaultConfig = {
   prefix: {
-    set: 'SET',
-    update: 'UPDATE',
-    remove: 'REMOVE',
+    set: "SET",
+    update: "UPDATE",
+    remove: "REMOVE",
   },
 };
 
