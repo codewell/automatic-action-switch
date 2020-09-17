@@ -3,6 +3,7 @@ const defaultConfig = {
     set: "SET",
     update: "UPDATE",
     remove: "REMOVE",
+    combine: "COMBINE",
   },
 };
 
