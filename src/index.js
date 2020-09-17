@@ -1,15 +1,15 @@
-const {
+import {
   getActionTypePrefix,
   getStatePropertyFromActionType,
-} = require("@codewell/action-type-utils");
-const {
+} from "@codewell/action-type-utils";
+import {
   setStateProperty,
   updateStateProperty,
   removeStateProperty,
-} = require("@codewell/state-actions");
-const defaultCustomSwitch = require("./defaultCustomSwitch");
-const defaultConfig = require("./defaultConfig");
-const { default: combineActions } = require("./combineActions");
+} from "@codewell/state-actions";
+import defaultCustomSwitch from "./defaultCustomSwitch";
+import defaultConfig from "./defaultConfig";
+import combineActions from "./combineActions";
 
 const automaticActionSwitch = (
   customSwitch = defaultCustomSwitch,
@@ -41,4 +41,4 @@ const automaticActionSwitch = (
   }
 };
 
-module.exports = automaticActionSwitch;
+export default automaticActionSwitch;

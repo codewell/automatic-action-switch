@@ -1,10 +1,10 @@
-const defaultConfig = {
+const defaultConfig = Object.freeze({
   prefix: {
     set: "SET",
     update: "UPDATE",
     remove: "REMOVE",
     combine: "COMBINE",
   },
-};
+});
 
-module.exports = defaultConfig;
+export default defaultConfig;
