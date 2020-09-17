@@ -6,4 +6,4 @@ const defaultCustomSwitch = (state, action) => {
   }
 };
 
-module.exports = defaultCustomSwitch;
+export default defaultCustomSwitch;
