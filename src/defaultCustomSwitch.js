@@ -3,7 +3,7 @@ const defaultCustomSwitch = (state, action) => {
     default: {
       return state;
     }
-  };
+  }
 };
 
 module.exports = defaultCustomSwitch;
