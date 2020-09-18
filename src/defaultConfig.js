@@ -3,7 +3,6 @@ const defaultConfig = Object.freeze({
     set: "SET",
     update: "UPDATE",
     remove: "REMOVE",
-    combine: "COMBINE",
   },
 });
 
