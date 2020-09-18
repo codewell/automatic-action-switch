@@ -1,6 +1,6 @@
 {
   "name": "@codewell/automatic-action-switch",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automatically perform reducer actions depending on the action type",
   "main": "index.js",
   "scripts": {
