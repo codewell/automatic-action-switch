@@ -42,6 +42,7 @@
     "eslint-plugin-react-hooks": "^4.0.0",
     "jest": "^25.3.0",
     "prettier": "^2.1.2",
-    "rollup": "^2.27.1"
+    "rollup": "^2.27.1",
+    "rollup-plugin-peer-deps-external": "^2.2.3"
   }
 }
