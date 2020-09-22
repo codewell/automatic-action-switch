@@ -3,6 +3,8 @@
   "version": "1.0.1",
   "description": "Automatically perform reducer actions depending on the action type",
   "main": "index.js",
+  "author": "Filip Johansson",
+  "license": "MIT",
   "scripts": {
     "test": "jest",
     "build": "npm run build:dev && npm run build:prod",
@@ -15,8 +17,6 @@
     "url": "git+https://github.com/codewell/automatic-action-switch.git"
   },
   "keywords": [],
-  "author": "Filip Johansson",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/codewell/automatic-action-switch/issues"
   },
@@ -26,7 +26,11 @@
     "@codewell/state-actions": "^1.0.1"
   },
   "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.11.5",
     "@babel/preset-env": "^7.11.5",
+    "@rollup/plugin-babel": "^5.2.1",
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "@rollup/plugin-node-resolve": "^9.0.0",
     "@rollup/plugin-replace": "^2.3.3",
     "eslint": "^7.2.0",
     "eslint-config-airbnb": "^18.2.0",
@@ -38,10 +42,6 @@
     "eslint-plugin-react-hooks": "^4.0.0",
     "jest": "^25.3.0",
     "prettier": "^2.1.2",
-    "rollup": "^2.27.1",
-    "rollup-plugin-babel": "^4.4.0",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-peer-deps-external": "^2.2.3"
+    "rollup": "^2.27.1"
   }
 }
